@@ -1,0 +1,150 @@
+version: "3"
+services:
+  eureka:
+    build: EurekaServer
+    container_name: eureka-server
+    image: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - backend
+  config:
+    build: ConfigurationServer
+    networks:
+      - backend
+    container_name: config-server
+    image: configuration-server
+    depends_on:
+      - eureka
+  zuul:
+    build: ZuulService
+    networks:
+      - backend
+      - frontend
+    ports:
+      - "8766:8766"
+    container_name: zuul-api-gateway
+    image: zuul-proxy
+    depends_on:
+      - config
+      - eureka
+  demo:
+    build: demo
+    networks:
+      - backend
+    container_name: demo-application
+    image: test-image
+    depends_on:
+      - config
+      - eureka
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: F235vk26
+      MYSQL_DATABASE: keycloak
+    ports:
+      - "3306:3306"
+    container_name: db
+    networks:
+      - backend
+    volumes:
+      - db-data
+  keycloak:
+    image: jboss/keycloak
+    networks:
+      - backend
+    ports:
+      - "8081:8080"
+    container_name: keycloak
+    depends_on:
+      - mysql
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+      - DB_VENDOR=mysql
+      - DB_ADDR=192.168.15.77
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=F235vk26
+  zookeeper:
+    networks:
+      - backend
+    container_name: zookeeper-server
+    image: bitnami/zookeeper
+    ports:
+      - "2181:2181"
+    volumes:
+      - "zookeeper-data:/bitnami"
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+      - ZOOKEEPER_TICK_TIME=4000
+  kafka:
+    networks:
+      - backend
+    container_name: kafka-server
+    image: bitnami/kafka
+    ports:
+      - "9092:9092"
+    volumes:
+      - "kafka-data:/bitnami"
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_LISTENERS=INTERNAL://:9093,EXTERNAL://:9092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=INTERNAL://kafka:9093,EXTERNAL://external_kafka_url:12092
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=INTERNAL
+    depends_on:
+      - zookeeper
+  zeebe:
+    container_name: zeebe
+    image: camunda/zeebe
+    environment:
+      - ZEEBE_LOG_LEVEL=debug
+    ports:
+      - "26500:26500"
+      - "9600:9600"
+    volumes:
+      - zeebe_data:/usr/local/zeebe/data
+      - ./ZeebeServer/operate/application.yaml:/usr/local/zeebe/config/application.yaml
+    depends_on:
+      - elasticsearch
+    networks:
+      - backend
+  operate:
+    container_name: operate
+    image: camunda/operate
+    ports:
+      - "8080:8080"
+    depends_on:
+      - zeebe
+      - elasticsearch
+    volumes:
+      - ./ZeebeServer/lib/application.yml:/usr/local/operate/config/application.yml
+    networks:
+      - backend
+  elasticsearch:
+    container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.7.1
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - cluster.name=elasticsearch
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - zeebe_elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - backend
+
+
+networks:
+  frontend:
+  backend:
+volumes:
+  db-data:
+  zookeeper-data:
+  kafka-data:
+  zeebe_elasticsearch_data:
+  zeebe_data:
+  operate_data:

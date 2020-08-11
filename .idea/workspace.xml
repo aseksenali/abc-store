@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Mobile-App" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Mobile-App" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:software_native" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e991457c-78d0-4079-ae18-f7b7d732fa0c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/config-services/Mobile App/software_native/android">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Aset\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fXCuBJjJFEqNI3tCzh8sM6eLdB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aset\IdeaProjects\ABC-Store\EmbeddedKeycloak\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aset\IdeaProjects\ABC-Store\EmbeddedKeycloak" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -DskipTests" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.elasticsearch: Compose Deployment">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configserver (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.software.configserver.ConfigurationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddedKeycloakApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="embedded-keycloak" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.embeddedkeycloak.EmbeddedKeycloakApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.software.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuulservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learning.zuulservice.ZuulServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker-compose without build" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" singleton="true" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/EurekaServer/pom.xml" goal="clean install -Dmaven.test.skip=true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/ConfigurationServer/pom.xml" goal="clean install -Dmaven.test.skip=true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/ZuulService/pom.xml" goal="clean install -Dmaven.test.skip=true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/demo/pom.xml" goal="clean install -Dmaven.test.skip=true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml.elasticsearch: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="elasticsearch" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.keycloak: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="keycloak" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.zeebe: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="zeebe" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker-compose without build" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.zeebe: Compose Deployment" />
+      <item itemvalue="Spring Boot.ConfigurationServerApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServiceApplication" />
+      <item itemvalue="Spring Boot.EmbeddedKeycloakApplication" />
+      <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.zeebe: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.keycloak: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e991457c-78d0-4079-ae18-f7b7d732fa0c" name="Default Changelist" comment="" />
+      <created>1596355270675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596355270675</updated>
+      <workItem from="1596355271815" duration="1745000" />
+      <workItem from="1596436827311" duration="9599000" />
+      <workItem from="1596451282957" duration="8703000" />
+      <workItem from="1596623085911" duration="8150000" />
+      <workItem from="1596688558947" duration="3706000" />
+      <workItem from="1596868460498" duration="21969000" />
+      <workItem from="1597161823632" duration="2221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="816" y="399" key="#Port_bindings" timestamp="1596444002611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="399" key="#Port_bindings/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596444002611" />
+    <state x="803" y="301" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597159301582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="301" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597159301582" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1596623244670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596623244670" />
+    <state x="1187" y="538" key="DockerComposeFileDialog" timestamp="1597147260533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1187" y="538" key="DockerComposeFileDialog/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597147260533" />
+    <state x="1214" y="320" key="EnvironmentVariablesDialog" timestamp="1596442545455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1214" y="320" key="EnvironmentVariablesDialog/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596442545455" />
+    <state x="1128" y="412" key="FileChooserDialogImpl" timestamp="1597161223394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1128" y="412" key="FileChooserDialogImpl/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597161223394" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1597161618390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597161618390" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1597161618389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597161618389" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1597161618389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597161618389" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1597161618389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597161618389" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1596708648808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596708648808" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1597164060107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597164060107" />
+    <state x="342" y="94" key="new project wizard" timestamp="1596887592279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="94" key="new project wizard/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596887592279" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1596709000833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596709000833" />
+    <state x="503" y="118" key="spring file set editor" timestamp="1596637356380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="118" key="spring file set editor/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596637356380" />
+  </component>
+</project>

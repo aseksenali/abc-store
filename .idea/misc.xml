@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ZuulService/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/config-services/Backend/ZuulService/pom.xml" />
+        <option value="$PROJECT_DIR$/config-services/Backend/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/config-services/Backend/AccountService/pom.xml" />
+        <option value="$PROJECT_DIR$/config-services/Backend/SecurityService/pom.xml" />
+        <option value="$PROJECT_DIR$/config-services/Backend/ConfigurationServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigurationServer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/EmbeddedKeycloak/pom.xml" />
+        <option value="$PROJECT_DIR$/embedded-keycloak/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK" />
+</project>
