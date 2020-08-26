@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e991457c-78d0-4079-ae18-f7b7d732fa0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ZeebeServer/operate/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZeebeServer/operate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZeebeServer/operate/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZeebeServer/operate/docker-compose.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config-services" beforeDir="false" afterPath="$PROJECT_DIR$/config-services" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -103,7 +99,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -125,7 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.zeebe: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml.monitor: Compose Deployment">
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configserver (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.software.configserver.ConfigurationServerApplication" />
@@ -175,6 +171,32 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.elasticsearch: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="elasticsearch" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.monitor: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="monitor" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="docker-compose.yml.operate: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -215,22 +237,26 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Docker-compose without build" />
       <item itemvalue="Docker.Docker-compose with build" />
+      <item itemvalue="Docker.Docker-compose without build" />
+      <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.monitor: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml.operate: Compose Deployment" />
-      <item itemvalue="Spring Boot.ConfigurationServerApplication" />
-      <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.ZuulServiceApplication" />
-      <item itemvalue="Spring Boot.EmbeddedKeycloakApplication" />
       <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       <item itemvalue="Docker.docker-compose.yml.zeebe: Compose Deployment" />
+      <item itemvalue="Spring Boot.ConfigurationServerApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.EmbeddedKeycloakApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.operate: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.zeebe: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.operate: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.monitor: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +278,11 @@
       <workItem from="1597256115938" duration="1832000" />
       <workItem from="1597294894410" duration="13763000" />
       <workItem from="1597494127182" duration="1695000" />
-      <workItem from="1598094796345" duration="7126000" />
+      <workItem from="1598094796345" duration="17808000" />
+      <workItem from="1598251410803" duration="1225000" />
+      <workItem from="1598255137029" duration="1237000" />
+      <workItem from="1598274877163" duration="1880000" />
+      <workItem from="1598406589149" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1597164153584</created>
@@ -261,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597164153584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Docker change">
+      <created>1598107202311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598107202311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +319,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Docker change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="224" key="#Docker" timestamp="1598100720929">
@@ -337,18 +375,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1596708648808" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1598105684062">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1598254364092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1598105684062" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597164185390">
+    <state x="461" y="164" key="SettingsEditor/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1598254364092" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1598107217275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1597164185390" />
-    <state x="777" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598100298759">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1598107217275" />
+    <state x="777" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598181757065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1598100298759" />
+    <state x="777" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1680.174.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1598181757065" />
     <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1597214133892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
